@@ -1,158 +1,194 @@
-# Pet Store Website (PATOI)  
+# Pet Store Website (PATOI)
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)  
-[![Django](https://img.shields.io/badge/Django-3.2%2B-green)](https://www.djangoproject.com/)  
-[![License](https://img.shields.io/badge/License-Academic-lightgrey)](#)  
-[![GitHub Workflow](https://img.shields.io/badge/CI/CD-GitHub%20Actions-brightgreen)](https://github.com/)  
+<div align="center">
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/Django-3.2%2B-green?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
+[![License](https://img.shields.io/badge/License-Academic-lightgrey?style=for-the-badge)](#)
+[![GitHub Workflow](https://img.shields.io/badge/CI/CD-GitHub%20Actions-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/)
+
+*An all-in-one Django-based platform connecting pet owners, retailers, and veterinarians*
+
+[Features](#-features) • [Installation](#-installation) • [Technology Stack](#-technology-stack) • [Documentation](#-database-schema)
+
+</div>
 
 ---
 
 ## 📋 Project Overview
 
-PATOI is a Django-based web application that provides an all-in-one solution for pet-related services. The platform connects customers with pet product retailers and veterinarians, while also offering a social space for pet owners to share photos of their pets.  
+**PATOI** is a comprehensive Django web application that serves as a complete ecosystem for pet-related services. The platform seamlessly connects customers with pet product retailers and veterinary professionals, while providing a vibrant social space for pet owners to share and celebrate their beloved companions.
 
-- **Project Submitted:** December 2021  
-- **Developed by:** Richa Padhariya, Jenil Shyara  
-- **Institution:** Tops Career Center  
+**Project Details:**
+- **Submitted:** December 2021
+- **Developed by:** Richa Padhariya, Jenil Shyara
+- **Institution:** Tops Career Center
 
 ---
 
 ## ✨ Features
 
 ### 🛍️ Customer Features
-- User registration and authentication
-- Product search and category-based filtering
-- Shopping cart and wishlist functionality
-- Online payment system
-- Order history tracking
-- View veterinarian profiles
-- Book appointments with veterinarians
-- Upload and like pet photos
-- Product and website feedback
+
+- **Account Management** – Secure user registration and authentication
+- **Shopping Experience** – Product search with category-based filtering
+- **Purchase Tools** – Shopping cart and wishlist functionality
+- **Payments** – Integrated online payment system
+- **Order Tracking** – Complete order history and status updates
+- **Veterinary Services** – Browse vet profiles and book appointments
+- **Social Features** – Upload, view, and like pet photos
+- **Feedback System** – Share product reviews and website feedback
 
 ### 🏪 Retailer Features
-- Retailer registration and profile management
-- Add and manage products
-- View customer order details
-- Payment history and order tracking
-- Shop description management
+
+- **Business Profile** – Registration and comprehensive profile management
+- **Product Management** – Add, edit, and organize product listings
+- **Order Processing** – View and manage customer orders
+- **Financial Tracking** – Payment history and revenue analytics
+- **Store Customization** – Edit shop descriptions and details
 
 ### 👨‍⚕️ Veterinarian Features
-- Doctor registration and profile management
-- View and manage appointment requests
-- Approve or decline appointments
-- Profile description editing
+
+- **Professional Profile** – Doctor registration and credentials management
+- **Appointment System** – View and manage appointment requests
+- **Schedule Control** – Approve or decline bookings
+- **Profile Updates** – Edit professional descriptions and specialties
 
 ### 🔧 Admin Features
-- Manage doctors, retailers, and customers
-- Order management
-- View uploaded pet photos
-- Review customer feedback
-- System-wide control and monitoring
+
+- **User Management** – Oversee doctors, retailers, and customers
+- **Order Oversight** – Monitor and manage all transactions
+- **Content Moderation** – Review uploaded pet photos
+- **Feedback Review** – Analyze customer feedback and suggestions
+- **System Control** – Complete platform monitoring and management
 
 ---
 
 ## 🛠️ Technology Stack
 
-**Frontend**
-- HTML5 – Structure and content
-- CSS3 – Styling and layout
-- Bootstrap – Responsive design framework
-- JavaScript – Interactive functionality
+### Frontend
+- **HTML5** – Structure and semantic markup
+- **CSS3** – Modern styling and animations
+- **Bootstrap** – Responsive design framework
+- **JavaScript** – Dynamic and interactive features
 
-**Backend**
-- Python – Programming language
-- Django – Web framework
-- SQLite – Built-in database (development)
-- MySQL – Production database (optional)
+### Backend
+- **Python** – Core programming language
+- **Django** – High-level web framework
+- **SQLite** – Development database
+- **MySQL** – Production database (optional)
 
 ---
 
 ## 🚀 Installation
 
 ### Prerequisites
+
+Ensure you have the following installed:
 - Python 3.8 or higher
 - pip (Python package manager)
-- Virtual environment (recommended)
+- Virtual environment tool (recommended)
 
 ### Setup Steps
-1. **Clone the repository**
+
+**1. Clone the repository**
 ```bash
 git clone https://github.com/yourusername/pet-store-website.git
 cd pet-store-website
 ```
-2. **Create a virtual environment**
+
+**2. Create a virtual environment**
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
-3. **Install dependencies**
+
+**3. Install dependencies**
 ```bash
 pip install django
 pip install pillow
 ```
-4. **Run migrations**
+
+**4. Run migrations**
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
-5. Create a superuser (admin)
+
+**5. Create a superuser (admin)**
 ```bash
 python manage.py createsuperuser
 ```
-6. Run the development server
+
+**6. Run the development server**
 ```bash
 python manage.py runserver
 ```
-7. Access the application
-Open your browser and navigate to http://127.0.0.1:8000/
-Admin panel: http://127.0.0.1:8000/admin/
 
-##📊 Database Schema
-Main Tables
-  User – Authentication and role management  
-  Customer – Customer profile information
-  Doctor – Veterinarian profiles
-  Retailer – Seller profiles
-  Product – Product catalog
-  Cart – Shopping cart items
-  Order – Purchase orders
-  Appointment – Veterinary appointments
-  Payment – Payment records
-  Gallery – Pet photos
-  Feedback – User feedback
+**7. Access the application**
+- Main application: `http://127.0.0.1:8000/`
+- Admin panel: `http://127.0.0.1:8000/admin/`
+
+---
+
+## 📊 Database Schema
+
+### Main Tables
+
+| Table | Description |
+|-------|-------------|
+| **User** | Authentication and role management |
+| **Customer** | Customer profile information |
+| **Doctor** | Veterinarian profiles and credentials |
+| **Retailer** | Seller profiles and business details |
+| **Product** | Product catalog and inventory |
+| **Cart** | Shopping cart items |
+| **Order** | Purchase orders and transactions |
+| **Appointment** | Veterinary appointment bookings |
+| **Payment** | Payment records and transaction history |
+| **Gallery** | User-uploaded pet photos |
+| **Feedback** | Customer reviews and feedback |
+
+---
 
 ## 🧪 Testing
-The project includes comprehensive test cases for all user roles.
-Run tests using:
-bash
-```
+
+The project includes comprehensive test cases covering all user roles and functionalities.
+
+**Run tests using:**
+```bash
 python manage.py test
 ```
----
-##🔮 Future Enhancements
-
-Mobile application development
-Real-time chat system
-Video calling for veterinary consultations
-Comment system on pet photos
-Photo download functionality
-Email notifications for orders and appointments
-Multiple payment gateway integration
 
 ---
 
-##⚠️ Current Limitations
+## 🔮 Future Enhancements
 
-Audio-only communication with veterinarians
-No direct chat with doctors
-No commenting on posts
-No post download functionality
+- 📱 Mobile application development (iOS & Android)
+- 💬 Real-time chat system for customer support
+- 📹 Video calling integration for veterinary consultations
+- 💭 Comment system on pet photos
+- 📥 Photo download functionality
+- 📧 Email notifications for orders and appointments
+- 💳 Multiple payment gateway integration
+- 🌐 Multi-language support
 
 ---
 
-##🧰 Python & Django Version Compatibility
-Python Version	Django Version
-3.8+	3.2+
-3.9+	4.x
+## ⚠️ Current Limitations
 
+- Audio-only communication with veterinarians
+- No direct messaging with doctors
+- Limited social interaction (no commenting on posts)
+- No download feature for pet photos
+
+---
+
+## 🧰 Version Compatibility
+
+| Python Version | Django Version |
+|----------------|----------------|
+| 3.8+ | 3.2+ |
+| 3.9+ | 4.x |
+
+---
