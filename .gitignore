@@ -9,15 +9,6 @@ Thumbs.db
 node_modules/
 npm-debug.log*
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-env/
-venv/
-*.sqlite3
-
 # Java
 *.class
 *.jar
@@ -31,9 +22,6 @@ out/
 .idea/
 *.sublime-workspace
 *.sublime-project
-
-# Environment variables
-.env
 
 # Build directories
 dist/
