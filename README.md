@@ -1,28 +1,16 @@
 # Pet Store Website (PATOI)
 
-<div align="center">
-
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Django](https://img.shields.io/badge/Django-3.2%2B-green?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
-[![License](https://img.shields.io/badge/License-Academic-lightgrey?style=for-the-badge)](#)
-[![GitHub Workflow](https://img.shields.io/badge/CI/CD-GitHub%20Actions-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/)
-
-*An all-in-one Django-based platform connecting pet owners, retailers, and veterinarians*
-
-[Features](#-features) • [Installation](#-installation) • [Technology Stack](#-technology-stack) • [Documentation](#-database-schema)
-
-</div>
-
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)  
+[![Django](https://img.shields.io/badge/Django-3.2%2B-green)](https://www.djangoproject.com/)  
+[![License](https://img.shields.io/badge/License-Academic-lightgrey)](#)  
+[![GitHub Workflow](https://img.shields.io/badge/CI/CD-GitHub%20Actions-brightgreen)](https://github.com/)  
 ---
 
 ## 📋 Project Overview
-
-**PATOI** is a comprehensive Django web application that serves as a complete ecosystem for pet-related services. The platform seamlessly connects customers with pet product retailers and veterinary professionals, while providing a vibrant social space for pet owners to share and celebrate their beloved companions.
-
-**Project Details:**
-- **Submitted:** December 2021
-- **Developed by:** Richa Padhariya, Jenil Shyara
-- **Institution:** Tops Career Center
+PATOI is a Django-based web application that provides an all-in-one solution for pet-related services. The platform connects customers with pet product retailers and veterinarians, while also offering a social space for pet owners to share photos of their pets.  
+- **Project Submitted:** December 2021  
+- **Developed by:** Richa Padhariya, Jenil Shyara  
+- **Institution:** Tops Career Center  
 
 ---
 
