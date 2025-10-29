@@ -18,53 +18,54 @@ PATOI is a Django-based web application that provides an all-in-one solution for
 
 ### 🛍️ Customer Features
 
-- **Account Management** – Secure user registration and authentication
-- **Shopping Experience** – Product search with category-based filtering
-- **Purchase Tools** – Shopping cart and wishlist functionality
-- **Payments** – Integrated online payment system
-- **Order Tracking** – Complete order history and status updates
-- **Veterinary Services** – Browse vet profiles and book appointments
-- **Social Features** – Upload, view, and like pet photos
-- **Feedback System** – Share product reviews and website feedback
+- User registration and authentication
+- Product search and category-based filtering
+- Shopping cart and wishlist functionality
+- Online payment system
+- Order history tracking
+- View veterinarian profiles
+- Book appointments with veterinarians
+- Upload and like pet photos
+- Product and website feedback
 
 ### 🏪 Retailer Features
 
-- **Business Profile** – Registration and comprehensive profile management
-- **Product Management** – Add, edit, and organize product listings
-- **Order Processing** – View and manage customer orders
-- **Financial Tracking** – Payment history and revenue analytics
-- **Store Customization** – Edit shop descriptions and details
-
+- Retailer registration and profile management
+- Add and manage products
+- View customer order details
+- Payment history and order tracking
+- Shop description management
+  
 ### 👨‍⚕️ Veterinarian Features
 
-- **Professional Profile** – Doctor registration and credentials management
-- **Appointment System** – View and manage appointment requests
-- **Schedule Control** – Approve or decline bookings
-- **Profile Updates** – Edit professional descriptions and specialties
+- Doctor registration and profile management
+- View and manage appointment requests
+- Approve or decline appointments
+- Profile description editing
 
 ### 🔧 Admin Features
 
-- **User Management** – Oversee doctors, retailers, and customers
-- **Order Oversight** – Monitor and manage all transactions
-- **Content Moderation** – Review uploaded pet photos
-- **Feedback Review** – Analyze customer feedback and suggestions
-- **System Control** – Complete platform monitoring and management
+- Manage doctors, retailers, and customers
+- Order management
+- View uploaded pet photos
+- Review customer feedback
+- System-wide control and monitoring
 
 ---
 
 ## 🛠️ Technology Stack
 
-### Frontend
-- **HTML5** – Structure and semantic markup
-- **CSS3** – Modern styling and animations
-- **Bootstrap** – Responsive design framework
-- **JavaScript** – Dynamic and interactive features
-
-### Backend
-- **Python** – Core programming language
-- **Django** – High-level web framework
-- **SQLite** – Development database
-- **MySQL** – Production database (optional)
+**Frontend**
+- HTML5 – Structure and content
+- CSS3 – Styling and layout
+- Bootstrap – Responsive design framework
+- JavaScript – Interactive functionality
+  
+**Backend**
+- Python – Programming language
+- Django – Web framework
+- SQLite – Built-in database (development)
+- MySQL – Production database (optional)
 
 ---
 
