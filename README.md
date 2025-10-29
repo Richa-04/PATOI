@@ -129,34 +129,27 @@ bash
 ```
 python manage.py test
 ```
-
+---
 ##🔮 Future Enhancements
 
 Mobile application development
-
 Real-time chat system
-
 Video calling for veterinary consultations
-
 Comment system on pet photos
-
 Photo download functionality
-
 Email notifications for orders and appointments
-
 Multiple payment gateway integration
 
+---
 
 ##⚠️ Current Limitations
 
 Audio-only communication with veterinarians
-
 No direct chat with doctors
-
 No commenting on posts
-
 No post download functionality
 
+---
 
 ##🧰 Python & Django Version Compatibility
 Python Version	Django Version
