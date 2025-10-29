@@ -1,9 +1,9 @@
 # Pet Store Website (PATOI)
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)  
-[![Django](https://img.shields.io/badge/Django-3.2%2B-green)](https://www.djangoproject.com/)  
-[![License](https://img.shields.io/badge/License-Academic-lightgrey)](#)  
-[![GitHub Workflow](https://img.shields.io/badge/CI/CD-GitHub%20Actions-brightgreen)](https://github.com/)  
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/Django-3.2%2B-092E20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
+[![License](https://img.shields.io/badge/License-Academic-lightgrey?style=for-the-badge)](#)
+[![GitHub Workflow](https://img.shields.io/badge/CI/CD-GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/)
 ---
 
 ## 📋 Project Overview
