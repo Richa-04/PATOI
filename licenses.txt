@@ -1,0 +1,26 @@
+Image Licenses for Giraffe Haven Website
+
+Logo Image:
+Filename: logo.png
+Source: https://unsplash.com/photos/portrait-of-giraffe-NNe6epzHGm8
+License: https://unsplash.com/license
+
+Baby Giraffe Image:
+Filename: baby-giraffe.png
+Source: https://unsplash.com/photos/a-giraffe-standing-on-top-of-a-dirt-field-rBzjaFTnnac
+License: https://unsplash.com/license
+
+Giraffe Portrait Image:
+Filename: giraffe-portrait.png
+Source: https://unsplash.com/photos/a-giraffe-looking-at-the-camera-wfQ4XjhOizo
+License: https://unsplash.com/license
+
+Acacia Savanna Image:
+Filename: acacia-savanna-giraffe.png
+Source: https://unsplash.com/photos/a-giraffe-standing-in-a-grassy-field-with-trees-in-the-background-Ya5ROMorHpg
+License: https://unsplash.com/license
+
+Giraffe Herd Image:
+Filename: giraffe-herd.png
+Source: https://unsplash.com/photos/a-family-of-giraffe-in-etosha-national-park-namibia-ZHv4H4pMlRk
+License: https://unsplash.com/license
